@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Poc test suite" time="23" tests="5" failures="0" errors="0">
+   <testsuite name="Poc test suite" tests="5" failures="0" errors="0" time="23" timestamp="2018-09-17 18:24:21" hostname="jochenpanjaer - jochens-mbp.fritz.box" id="Test Suites/Poc test suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/jochenpanjaer/JP Graphics/Web development/Clients/Ziango/poc-buildstreet/_endToEndtests/Test-poc/Reports/Poc test suite/20180917_182419"/>
+         <property name="logFiles" value="/Users/jochenpanjaer/JP Graphics/Web development/Clients/Ziango/poc-buildstreet/_endToEndtests/Test-poc/Reports/Poc test suite/20180917_182419/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jochenpanjaer - jochens-mbp.fritz.box"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.92"/>
+         <property name="hostAddress" value="192.168.178.160"/>
+         <property name="sessionId" value="7a4d28807c12a8ebe60683eeca83bdcc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Opens browser" classname="Test Cases/Opens browser" status="PASSED">
+         <system-out><![CDATA[2018-09-17 18:24:21 - [TEST_CASE][PASSED] - Test Cases/Opens browser: Test Cases/Opens browser
+
+2018-09-17 18:24:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-17 18:24:23 - [MESSAGE][PASSED] - Browser is opened with url: '']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Adds new todo and removes it again" classname="Test Cases/Adds new todo and removes it again" status="PASSED">
+         <system-out><![CDATA[2018-09-17 18:24:23 - [TEST_CASE][PASSED] - Test Cases/Adds new todo and removes it again: Test Cases/Adds new todo and removes it again
+
+2018-09-17 18:24:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:3000/' successfully
+
+2018-09-17 18:24:24 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+2018-09-17 18:24:24 - [TEST_STEP][PASSED] - setText: Text 'test title' is set on object 'Object Repository/Page_Buildstreet POC/home page/input title'
+
+2018-09-17 18:24:24 - [MESSAGE][PASSED] - Text 'test title' is set on object 'Object Repository/Page_Buildstreet POC/home page/input title'
+
+2018-09-17 18:24:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 18:24:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 18:24:25 - [TEST_STEP][PASSED] - setText: Text 'test description' is set on object 'Object Repository/Page_Buildstreet POC/home page/input description'
+
+2018-09-17 18:24:25 - [MESSAGE][PASSED] - Text 'test description' is set on object 'Object Repository/Page_Buildstreet POC/home page/input description'
+
+2018-09-17 18:24:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 18:24:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 18:24:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Buildstreet POC/home page/button_Add new' is clicked on
+
+2018-09-17 18:24:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Buildstreet POC/home page/button_Add new' is clicked on
+
+2018-09-17 18:24:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 18:24:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 18:24:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Buildstreet POC/home page/button_Remove' is clicked on
+
+2018-09-17 18:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Buildstreet POC/home page/button_Remove' is clicked on
+
+2018-09-17 18:24:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 18:24:29 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Goes to embedded page and starts youtube" classname="Test Cases/Goes to embedded page and starts youtube" status="PASSED">
+         <system-out><![CDATA[2018-09-17 18:24:29 - [TEST_CASE][PASSED] - Test Cases/Goes to embedded page and starts youtube: Test Cases/Goes to embedded page and starts youtube
+
+2018-09-17 18:24:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:3000/embedded' successfully
+
+2018-09-17 18:24:29 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/embedded' successfully
+
+2018-09-17 18:24:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 18:24:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 18:24:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Buildstreet POC/embedded page/Youtube start' is clicked on
+
+2018-09-17 18:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Buildstreet POC/embedded page/Youtube start' is clicked on
+
+2018-09-17 18:24:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-17 18:24:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-17 18:24:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Buildstreet POC/embedded page/Youtube play-pause' is clicked on
+
+2018-09-17 18:24:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Buildstreet POC/embedded page/Youtube play-pause' is clicked on
+
+2018-09-17 18:24:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-17 18:24:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-17 18:24:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Buildstreet POC/embedded page/Youtube play-pause' is clicked on
+
+2018-09-17 18:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Buildstreet POC/embedded page/Youtube play-pause' is clicked on
+
+2018-09-17 18:24:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-17 18:24:38 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Goes to canvas page and clicks the rectangles" classname="Test Cases/Goes to canvas page and clicks the rectangles" status="PASSED">
+         <system-out><![CDATA[2018-09-17 18:24:38 - [TEST_CASE][PASSED] - Test Cases/Goes to canvas page and clicks the rectangles: Test Cases/Goes to canvas page and clicks the rectangles
+
+2018-09-17 18:24:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:3000/canvas' successfully
+
+2018-09-17 18:24:38 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/canvas' successfully
+
+2018-09-17 18:24:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 18:24:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 18:24:39 - [TEST_STEP][PASSED] - Statement - canvas = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Buildstreet POC/canvas page/Canvas): Finding Test Object with id 'Object Repository/Page_Buildstreet POC/canvas page/Canvas'
+
+2018-09-17 18:24:39 - [TEST_STEP][PASSED] - Statement - msg = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Buildstreet POC/canvas page/Click message): Finding Test Object with id 'Object Repository/Page_Buildstreet POC/canvas page/Click message'
+
+2018-09-17 18:24:39 - [TEST_STEP][PASSED] - clickOffset: Object: 'Object Repository/Page_Buildstreet POC/canvas page/Canvas' is clicked on using offset x=10 and y=10
+
+2018-09-17 18:24:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Buildstreet POC/canvas page/Canvas' is clicked on using offset x=10 and y=10
+
+2018-09-17 18:24:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 18:24:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 18:24:40 - [TEST_STEP][PASSED] - clickOffset: Object: 'Object Repository/Page_Buildstreet POC/canvas page/Canvas' is clicked on using offset x=50 and y=50
+
+2018-09-17 18:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Buildstreet POC/canvas page/Canvas' is clicked on using offset x=50 and y=50
+
+2018-09-17 18:24:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 18:24:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 18:24:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Buildstreet POC/canvas page/Click message' is present
+
+2018-09-17 18:24:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Buildstreet POC/canvas page/Click message' is present
+
+2018-09-17 18:24:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Buildstreet POC/canvas page/Click message' are matched.
+
+2018-09-17 18:24:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Buildstreet POC/canvas page/Click message' are matched.
+
+2018-09-17 18:24:42 - [TEST_STEP][PASSED] - clickOffset: Object: 'Object Repository/Page_Buildstreet POC/canvas page/Canvas' is clicked on using offset x=300 and y=50
+
+2018-09-17 18:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Buildstreet POC/canvas page/Canvas' is clicked on using offset x=300 and y=50
+
+2018-09-17 18:24:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 18:24:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 18:24:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Buildstreet POC/canvas page/Click message' is present
+
+2018-09-17 18:24:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Buildstreet POC/canvas page/Click message' is present
+
+2018-09-17 18:24:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Buildstreet POC/canvas page/Click message' are matched.
+
+2018-09-17 18:24:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Buildstreet POC/canvas page/Click message' are matched.
+
+2018-09-17 18:24:43 - [TEST_STEP][PASSED] - clickOffset: Object: 'Object Repository/Page_Buildstreet POC/canvas page/Canvas' is clicked on using offset x=10 and y=10
+
+2018-09-17 18:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Buildstreet POC/canvas page/Canvas' is clicked on using offset x=10 and y=10
+
+2018-09-17 18:24:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 18:24:44 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Close browser" classname="Test Cases/Close browser" status="PASSED">
+         <system-out><![CDATA[2018-09-17 18:24:44 - [TEST_CASE][PASSED] - Test Cases/Close browser: Test Cases/Close browser
+
+2018-09-17 18:24:44 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-17 18:24:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-17 18:24:21 - [TEST_SUITE][PASSED] - Poc test suite: Test Cases/Close browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

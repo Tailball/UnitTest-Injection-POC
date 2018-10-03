@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Poc test suite,,,2018-09-17 18:37:37,2018-09-17 18:37:40,2.687s,FAILED
+,,,,,,
+Test Cases/Opens browser,,,2018-09-17 18:37:38,2018-09-17 18:37:40,1.957s,FAILED
+openBrowser,,,2018-09-17 18:37:38,2018-09-17 18:37:39,1.680s,FAILED
+,,,,,,
+Test Cases/Adds new todo and removes it again,,,2018-09-17 18:37:40,2018-09-17 18:37:40,0.125s,FAILED
+navigateToUrl,,,2018-09-17 18:37:40,2018-09-17 18:37:40,0.017s,FAILED
+,,,,,,
+Test Cases/Goes to embedded page and starts youtube,,,2018-09-17 18:37:40,2018-09-17 18:37:40,0.122s,FAILED
+navigateToUrl,,,2018-09-17 18:37:40,2018-09-17 18:37:40,0.003s,FAILED
+,,,,,,
+Test Cases/Goes to canvas page and clicks the rectangles,,,2018-09-17 18:37:40,2018-09-17 18:37:40,0.105s,FAILED
+navigateToUrl,,,2018-09-17 18:37:40,2018-09-17 18:37:40,0.003s,FAILED
+,,,,,,
+Test Cases/Close browser,,,2018-09-17 18:37:40,2018-09-17 18:37:40,0.086s,PASSED
+closeBrowser,,,2018-09-17 18:37:40,2018-09-17 18:37:40,0.007s,PASSED

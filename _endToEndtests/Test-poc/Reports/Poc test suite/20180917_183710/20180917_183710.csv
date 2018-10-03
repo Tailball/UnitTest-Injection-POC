@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Poc test suite,Firefox 61.0,,2018-09-17 18:37:12,2018-09-17 18:37:19,6.706s,FAILED
+,,,,,,
+Test Cases/Opens browser,Firefox 61.0,,2018-09-17 18:37:13,2018-09-17 18:37:17,3.990s,PASSED
+openBrowser,Firefox 61.0,,2018-09-17 18:37:13,2018-09-17 18:37:17,3.704s,PASSED
+,,,,,,
+Test Cases/Adds new todo and removes it again,Firefox 61.0,,2018-09-17 18:37:17,2018-09-17 18:37:18,1.928s,FAILED
+navigateToUrl,Firefox 61.0,,2018-09-17 18:37:17,2018-09-17 18:37:17,0.522s,PASSED
+setText,Firefox 61.0,,2018-09-17 18:37:17,2018-09-17 18:37:17,0.148s,PASSED
+delay,Firefox 61.0,,2018-09-17 18:37:17,2018-09-17 18:37:18,1.018s,PASSED
+setText,Firefox 61.0,,2018-09-17 18:37:18,2018-09-17 18:37:18,0.062s,FAILED
+,,,,,,
+Test Cases/Goes to embedded page and starts youtube,Firefox 61.0,,2018-09-17 18:37:18,2018-09-17 18:37:19,0.139s,FAILED
+navigateToUrl,Firefox 61.0,,2018-09-17 18:37:19,2018-09-17 18:37:19,0.022s,FAILED
+,,,,,,
+Test Cases/Goes to canvas page and clicks the rectangles,Firefox 61.0,,2018-09-17 18:37:19,2018-09-17 18:37:19,0.126s,FAILED
+navigateToUrl,Firefox 61.0,,2018-09-17 18:37:19,2018-09-17 18:37:19,0.021s,FAILED
+,,,,,,
+Test Cases/Close browser,Firefox 61.0,,2018-09-17 18:37:19,2018-09-17 18:37:19,0.174s,FAILED
+closeBrowser,Firefox 61.0,,2018-09-17 18:37:19,2018-09-17 18:37:19,0.078s,FAILED

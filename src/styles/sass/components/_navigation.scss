@@ -1,0 +1,40 @@
+.navigation {
+    width: 100vw;
+    height: $height-navbar;
+    background-color: white;
+    border-bottom: 1px solid black;
+
+    ul {
+        height: 100%;
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+
+        li {
+            display: inline-block;
+            
+            height: inherit;
+            width: auto;
+
+            display: flex;
+            align-items: center;
+            transition: all .3s ease-in-out;
+
+            a {
+                font-size: 1.6rem;
+                text-transform: uppercase;
+                padding: 0 2rem;
+                transition: all .5s ease-in-out;
+            }
+        }
+
+        li:hover {
+            background-color: darkslategrey;
+
+            a {
+                color: white;
+            }
+        }
+    }
+}

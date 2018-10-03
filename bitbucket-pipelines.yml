@@ -1,0 +1,25 @@
+# This is a sample build configuration for JavaScript.
+# Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: node:6.9.4
+
+pipelines:
+  branches:
+    master:
+    - step:
+        caches:
+        - node
+        script: # Modify the commands below to build your repository.
+        - npm install
+        - npm run build
+        - echo "Testing out deployment via sftp"
+
+        # still figuring out how to sftp with expect
+        #- cp ./build poc-buildstreet
+        #- apt-get update && apt-get install -y expect
+        #- sftp ziabo.nl@ziabo.nl.transurl.nl:'/www/1tLm$vsBjdh/' <<< $'put -r ./poc-buildstreet/'
+
+        # figure out what the actual command should be.
+        # - npm deploy-to-the-server

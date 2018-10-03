@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Poc test suite,Chrome 69.0.3497.92,,2018-09-17 17:41:23,2018-09-17 17:41:39,15.581s,FAILED
+,,,,,,
+Test Cases/Opens browser,Chrome 69.0.3497.92,,2018-09-17 17:41:24,2018-09-17 17:41:27,3.163s,PASSED
+openBrowser,Chrome 69.0.3497.92,,2018-09-17 17:41:24,2018-09-17 17:41:27,2.788s,PASSED
+,,,,,,
+Test Cases/Goes to embedded page and starts youtube,Chrome 69.0.3497.92,,2018-09-17 17:41:27,2018-09-17 17:41:37,10.260s,PASSED
+navigateToUrl,Chrome 69.0.3497.92,,2018-09-17 17:41:27,2018-09-17 17:41:28,1.260s,PASSED
+delay,Chrome 69.0.3497.92,,2018-09-17 17:41:28,2018-09-17 17:41:29,1.030s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-17 17:41:29,2018-09-17 17:41:30,0.366s,PASSED
+delay,Chrome 69.0.3497.92,,2018-09-17 17:41:30,2018-09-17 17:41:33,3.007s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-17 17:41:33,2018-09-17 17:41:33,0.253s,PASSED
+delay,Chrome 69.0.3497.92,,2018-09-17 17:41:33,2018-09-17 17:41:35,2.006s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-17 17:41:35,2018-09-17 17:41:35,0.184s,PASSED
+delay,Chrome 69.0.3497.92,,2018-09-17 17:41:35,2018-09-17 17:41:37,2.007s,PASSED
+,,,,,,
+Test Cases/Goes to canvas page and clicks the rectangles,Chrome 69.0.3497.92,,2018-09-17 17:41:37,2018-09-17 17:41:38,1.373s,FAILED
+navigateToUrl,Chrome 69.0.3497.92,,2018-09-17 17:41:37,2018-09-17 17:41:37,0.178s,PASSED
+delay,Chrome 69.0.3497.92,,2018-09-17 17:41:37,2018-09-17 17:41:38,1.003s,PASSED
+clickOffset,Chrome 69.0.3497.92,,2018-09-17 17:41:38,2018-09-17 17:41:38,0.037s,FAILED
+,,,,,,
+Test Cases/Adds new todo and removes it again,Chrome 69.0.3497.92,,2018-09-17 17:41:38,2018-09-17 17:41:39,0.128s,FAILED
+navigateToUrl,Chrome 69.0.3497.92,,2018-09-17 17:41:39,2018-09-17 17:41:39,0.016s,FAILED
+,,,,,,
+Test Cases/Close browser,Chrome 69.0.3497.92,,2018-09-17 17:41:39,2018-09-17 17:41:39,0.194s,PASSED
+closeBrowser,Chrome 69.0.3497.92,,2018-09-17 17:41:39,2018-09-17 17:41:39,0.099s,PASSED

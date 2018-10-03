@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Poc test suite" time="17" tests="2" failures="0" errors="0">
+   <testsuite name="Poc test suite" tests="2" failures="0" errors="0" time="17" timestamp="2018-09-17 12:30:56" hostname="jochenpanjaer - jochens-mbp.fritz.box" id="Test Suites/Poc test suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/jochenpanjaer/JP Graphics/Web development/Clients/Ziango/poc-buildstreet/_endToEndtests/Test-poc/Reports/Poc test suite/20180917_123055"/>
+         <property name="logFiles" value="/Users/jochenpanjaer/JP Graphics/Web development/Clients/Ziango/poc-buildstreet/_endToEndtests/Test-poc/Reports/Poc test suite/20180917_123055/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jochenpanjaer - jochens-mbp.fritz.box"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.92"/>
+         <property name="hostAddress" value="192.168.178.160"/>
+         <property name="sessionId" value="21cc30cdd28312f3848db7526dabeac5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Adds new todo and removes it again" classname="Test Cases/Adds new todo and removes it again" status="PASSED">
+         <system-out><![CDATA[2018-09-17 12:30:57 - [TEST_CASE][PASSED] - Test Cases/Adds new todo and removes it again: Test Cases/Adds new todo and removes it again
+
+2018-09-17 12:30:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-17 12:30:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-17 12:30:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:3000/' successfully
+
+2018-09-17 12:30:59 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+2018-09-17 12:30:59 - [TEST_STEP][PASSED] - setText: Text 'test title' is set on object 'Object Repository/Page_Buildstreet POC/home page/input title'
+
+2018-09-17 12:31:00 - [MESSAGE][PASSED] - Text 'test title' is set on object 'Object Repository/Page_Buildstreet POC/home page/input title'
+
+2018-09-17 12:31:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 12:31:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 12:31:01 - [TEST_STEP][PASSED] - setText: Text 'test description' is set on object 'Object Repository/Page_Buildstreet POC/home page/input description'
+
+2018-09-17 12:31:01 - [MESSAGE][PASSED] - Text 'test description' is set on object 'Object Repository/Page_Buildstreet POC/home page/input description'
+
+2018-09-17 12:31:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 12:31:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 12:31:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Buildstreet POC/home page/button_Add new' is clicked on
+
+2018-09-17 12:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Buildstreet POC/home page/button_Add new' is clicked on
+
+2018-09-17 12:31:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 12:31:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 12:31:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Buildstreet POC/home page/button_Remove' is clicked on
+
+2018-09-17 12:31:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Buildstreet POC/home page/button_Remove' is clicked on
+
+2018-09-17 12:31:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 12:31:04 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Goes to embedded page and starts youtube" classname="Test Cases/Goes to embedded page and starts youtube" status="PASSED">
+         <system-out><![CDATA[2018-09-17 12:31:04 - [TEST_CASE][PASSED] - Test Cases/Goes to embedded page and starts youtube: Test Cases/Goes to embedded page and starts youtube
+
+2018-09-17 12:31:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:3000/embedded' successfully
+
+2018-09-17 12:31:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/embedded' successfully
+
+2018-09-17 12:31:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 12:31:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 12:31:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Buildstreet POC/embedded page/Youtube start' is clicked on
+
+2018-09-17 12:31:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Buildstreet POC/embedded page/Youtube start' is clicked on
+
+2018-09-17 12:31:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-17 12:31:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-17 12:31:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Buildstreet POC/embedded page/Youtube play-pause' is clicked on
+
+2018-09-17 12:31:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Buildstreet POC/embedded page/Youtube play-pause' is clicked on
+
+2018-09-17 12:31:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-17 12:31:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-17 12:31:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Buildstreet POC/embedded page/Youtube play-pause' is clicked on
+
+2018-09-17 12:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Buildstreet POC/embedded page/Youtube play-pause' is clicked on
+
+2018-09-17 12:31:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-17 12:31:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-17 12:31:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-17 12:31:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-17 12:30:56 - [TEST_SUITE][PASSED] - Poc test suite: Test Cases/Goes to embedded page and starts youtube]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
